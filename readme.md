@@ -1,4 +1,4 @@
-# CATATAN HAFALAN CEPAT UJIAN & WAWANCARA
+# CATATAN
 **Skema Sertifikasi:** Asisten Pengembang Web (Junior Web Developer)  
 **Standar:** SKKNI No 282 Tahun 2016  
 **Peserta:** Muh Arya Pangestu  
