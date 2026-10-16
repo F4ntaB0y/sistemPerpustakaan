@@ -1,5 +1,5 @@
 ================================================================================
-          CATATAN HAFALAN CEPAT UJIAN ESSAY & WAWANCARA ASESOR
+                                  CATATAN 
        SKEMA SERTIFIKASI: ASISTEN PENGEMBANG WEB (JUNIOR WEB DEVELOPER)
                  STANDAR SKKNI NO 282 TAHUN 2016
 ================================================================================
