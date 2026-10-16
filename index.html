@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIPUS - Sistem Informasi Perpustakaan Digital</title>
+
+  <!-- Pre-existing Library 1: Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet Utama -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 1. TOP BAR LAYANAN (Tema Emerald Green & Gold) -->
+  <div class="top-bar-uin">
+    <div class="top-bar-container">
+      <div class="top-bar-left">
+        <a href="mailto:layanan@perpustakaan.id"><i class="fa-solid fa-envelope"></i> layanan@perpustakaan.id</a>
+        <a href="tel:0215001234"><i class="fa-solid fa-phone"></i> (021) 500-1234</a>
+        <span><i class="fa-solid fa-clock"></i> Jam Layanan: Senin - Sabtu (08.00 - 16.00 WIB)</span>
+      </div>
+      <div class="top-bar-right">
+        <span class="tagline-siber"><i class="fa-solid fa-book-bookmark"></i> Layanan Sirkulasi & Koleksi Digital Terpadu</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. HEADER UTAMA -->
+  <header>
+    <div class="nav-brand">
+      <div class="brand-wrapper">
+        <div class="brand-emblem">
+          <i class="fa-solid fa-book-open-reader"></i>
+        </div>
+        <div class="brand-text">
+          <h1>SIPUS DIGITAL</h1>
+          <span>Sistem Informasi Perpustakaan Terpadu</span>
+        </div>
+      </div>
+
+      <div class="header-action-area">
+        <span style="font-size: 0.825rem; color: #475569;"><i class="fa-solid fa-user-tie"></i> Petugas: <strong>Admin Perpustakaan</strong></span>
+        <span class="status-online-pill">
+          <span class="dot"></span> Sistem Aktif
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- KONTEN UTAMA APLIKASI -->
+  <main class="container">
+
+    <!-- BANNER PERPUSTAKAAN -->
+    <div class="hero-banner-uin">
+      <img src="assets/img/banner_perpustakaan.jpg" alt="Ruang Baca Perpustakaan Digital" class="hero-img">
+      <div class="hero-banner-overlay">
+        <span class="badge-kampus"><i class="fa-solid fa-bookmark"></i> PORTAL LAYANAN SIRKULASI BUKU</span>
+        <h2>Sistem Informasi Perpustakaan Digital</h2>
+        <p>Pencatatan Peminjaman Buku, Perhitungan Denda Otomatis, Verifikasi Paraf Digital, & Pusat Informasi Layanan.</p>
+      </div>
+    </div>
+
+    <!-- RINGKASAN STATISTIK TRANSAKSI -->
+    <section class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-info">
+          <h3>Peminjaman Aktif</h3>
+          <p id="statTotalBuku">0</p>
+        </div>
+        <div class="stat-icon icon-emerald">
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+      </div>
+
+      <div class="stat-card stat-gold">
+        <div class="stat-info">
+          <h3>Buku Terlambat</h3>
+          <p id="statTotalTerlambat">0</p>
+        </div>
+        <div class="stat-icon icon-amber">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-info">
+          <h3>Akumulasi Denda</h3>
+          <p id="statTotalDenda">Rp 0</p>
+        </div>
+        <div class="stat-icon icon-forest">
+          <i class="fa-solid fa-receipt"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROW 1: FORM TRANSAKSI & MEDIA INFORMASI LAYANAN -->
+    <div class="row">
+      
+      <!-- Formulir Peminjaman Buku -->
+      <section class="card">
+        <div class="card-header">
+          <h2 class="card-title"><i class="fa-solid fa-file-circle-plus"></i> Form Transaksi Peminjaman</h2>
+        </div>
+
+        <form id="formPeminjaman">
+          <div class="form-group">
+            <label for="namaPeminjam">Nama Lengkap Anggota</label>
+            <input type="text" id="namaPeminjam" class="form-control" placeholder="Contoh: Muhammad Farhan" required>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="kategoriBuku">Kategori Buku</label>
+              <select id="kategoriBuku" class="form-control">
+                <option value="Teknologi">Teknologi & Komputer</option>
+                <option value="Sains">Sains & Matematika</option>
+                <option value="Bisnis">Ekonomi & Bisnis</option>
+                <option value="Sastra">Sastra & Bahasa</option>
+                <option value="Sejarah">Sosial & Sejarah</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="lamaPinjam">Durasi Pinjam (Hari)</label>
+              <input type="number" id="lamaPinjam" class="form-control" min="1" max="30" placeholder="Contoh: 5" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="judulBuku">Judul Buku yang Dipinjam</label>
+            <input type="text" id="judulBuku" class="form-control" placeholder="Contoh: Pengantar Kecerdasan Buatan" required>
+            <div class="form-note">
+              <i class="fa-solid fa-circle-info"></i> Batas pinjam standar adalah 7 hari. Keterlambatan dikenakan denda Rp 2.000 / hari.
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+            <i class="fa-solid fa-check"></i> Catat Peminjaman Buku
+          </button>
+        </form>
+      </section>
+
+      <!-- Modul Panduan Layanan & Pengumuman (Multimedia) -->
+      <section class="card">
+        <div class="card-header">
+          <h2 class="card-title"><i class="fa-solid fa-photo-film"></i> Pusat Informasi Layanan</h2>
+        </div>
+
+        <div class="media-box">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+              <label style="font-size: 0.8rem; font-weight: 600; color: #475569;">
+                <i class="fa-solid fa-film"></i> Video Profil & Panduan Layanan Perpustakaan:
+              </label>
+              <span class="btn btn-secondary btn-sm" style="font-size: 0.7rem; padding: 0.15rem 0.5rem; cursor: default;">
+                <i class="fa-solid fa-circle-play" style="color: var(--uin-green-primary);"></i> Video Edukasi
+              </span>
+            </div>
+            <video controls poster="assets/img/banner_perpustakaan.jpg" preload="metadata" style="width: 100%; border-radius: 6px; max-height: 200px; background-color: #0f172a;">
+              <source src="assets/video/profil_perpustakaan.webm" type="video/webm">
+              Browser tidak mendukung pemutar video.
+            </video>
+          </div>
+
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 600; color: #475569; display: block; margin-bottom: 0.35rem;">
+              <i class="fa-solid fa-bell"></i> Audio Bel Pengumuman Jam Kunjungan:
+            </label>
+            <audio controls preload="metadata">
+              <source src="assets/audio/bel_perpustakaan.wav" type="audio/wav">
+              Browser tidak mendukung pemutar audio.
+            </audio>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ROW 2: PARAF BUKTI SERAH TERIMA FISIK BUKU (CANVAS 2D) -->
+    <section class="card">
+      <div class="card-header">
+        <h2 class="card-title"><i class="fa-solid fa-signature"></i> Paraf Serah Terima Fisik Buku (Verifikasi Digital)</h2>
+        <span style="font-size: 0.75rem; color: #64748b;">Goreskan paraf anggota saat penyerahan buku</span>
+      </div>
+
+      <div class="canvas-wrapper">
+        <canvas id="canvasTtd"></canvas>
+      </div>
+
+      <div class="canvas-toolbar">
+        <span>Gunakan mouse atau layar sentuh untuk membubuhkan paraf verifikasi serah terima buku.</span>
+        <div style="display: flex; gap: 0.5rem;">
+          <button type="button" class="btn btn-secondary btn-sm" id="btnBersihkanParaf">
+            <i class="fa-solid fa-eraser"></i> Bersihkan
+          </button>
+          <button type="button" class="btn btn-primary btn-sm" id="btnUnduhParaf">
+            <i class="fa-solid fa-download"></i> Simpan Paraf (PNG)
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROW 3: TABEL TRANSAKSI SIRKULASI -->
+    <section class="card">
+      <div class="card-header" style="flex-wrap: wrap; gap: 0.75rem;">
+        <div>
+          <h2 class="card-title"><i class="fa-solid fa-list-check"></i> Daftar Transaksi Peminjaman Aktif</h2>
+          <span style="font-size: 0.8rem; color: #64748b;">Memantau masa berlaku dan denda pengembalian buku</span>
+        </div>
+
+        <div style="width: 280px;">
+          <input type="text" id="searchTransaksi" class="form-control" placeholder="Cari kode, nama, atau judul...">
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 40px;">No</th>
+              <th>Kode</th>
+              <th>Nama Peminjam</th>
+              <th>Judul Buku</th>
+              <th>Kategori</th>
+              <th>Durasi</th>
+              <th>Denda</th>
+              <th>Status</th>
+              <th style="width: 100px;">Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="tabelPeminjaman">
+            <!-- Data transaksi di-render secara dinamis via js/script.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER RESMI APLIKASI (Tema Emerald Green & Gold) -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-identity">
+        <h4>SIPUS DIGITAL - Sistem Informasi Perpustakaan</h4>
+        <p>Unit Pengelolaan Layanan Sirkulasi, Katalog Digital, & Pusat Referensi Pemustaka.</p>
+        <p style="margin-top: 0.35rem; color: #94a3b8; font-size: 0.775rem;">
+          <i class="fa-solid fa-building-columns"></i> Pusat Layanan Informasi & Perpustakaan Terpadu
+        </p>
+      </div>
+
+      <div>
+        <span class="tagline-siber" style="background: rgba(255, 255, 255, 0.1); border-color: var(--uin-gold); font-size: 0.775rem;">
+          <i class="fa-solid fa-shield-halved" style="color: var(--uin-gold);"></i> Portal Layanan Resmi Perpustakaan
+        </span>
+      </div>
+    </div>
+
+    <div class="footer-copy">
+      &copy; 2026 SIPUS Digital. Sistem Informasi Layanan Sirkulasi & Manajemen Perpustakaan.
+    </div>
+  </footer>
+
+  <!-- Pre-existing Library 2: SweetAlert2 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- Script Aplikasi Perpustakaan -->
+  <script src="js/script.js"></script>
+</body>
+</html>

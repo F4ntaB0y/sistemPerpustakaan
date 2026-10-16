@@ -1,0 +1,238 @@
+<mxfile host="app.diagrams.net" agent="SIPUS Low-Fi Sketch Generator">
+  <diagram id="sketsa-awal-sipus" name="Sketsa Awal UI (Low-Fidelity Wireframe)">
+    <mxGraphModel dx="2836" dy="1345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1450" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sketsa_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;" value="&lt;b style=&quot;font-size:18px;&quot;&gt;SKETSA AWAL (LOW-FIDELITY WIREFRAME)&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px; color:#666;&quot;&gt;Perancangan Tata Letak Antarmuka Sistem Informasi Perpustakaan Digital (SIPUS)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="250" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="frame_sketsa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="1320" width="980" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="win_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#1E293B;strokeWidth=1.5;align=left;spacingLeft=15;fontSize=11;fontColor=#475569;sketch=1;" value="  ◯  ◯  ◯   |   [ URL: https://perpustakaan-digital.id/ ]" vertex="1">
+          <mxGeometry height="35" width="980" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="topbar_sketsa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;strokeWidth=1.5;fontSize=10;fontColor=#334155;sketch=1;" value="[ TOP BAR: Kontak Layanan &amp; Jam Operasional Perpustakaan ]" vertex="1">
+          <mxGeometry height="28" width="980" x="60" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="navbar_sketsa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;sketch=1;" value="" vertex="1">
+          <mxGeometry height="60" width="980" x="60" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_logo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;fontSize=9;fontStyle=1;sketch=1;" value="[ LOGO ]&#xa;IKON BUKU" vertex="1">
+          <mxGeometry height="40" width="70" x="85" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_brand" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="&lt;b&gt;[ NAMA SISTEM: SIPUS DIGITAL ]&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px;&quot;&gt;Sistem Informasi Perpustakaan Terpadu&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="300" x="165" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_user" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;fontSize=10;sketch=1;" value="[ PROFIL PETUGAS ]&#xa;Status: Sistem Aktif" vertex="1">
+          <mxGeometry height="40" width="135" x="880" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="banner_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;sketch=1;" value="" vertex="1">
+          <mxGeometry height="110" width="930" x="85" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="line_diag_1" edge="1" parent="1" source="banner_box" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#CBD5E1;entryX=1;entryY=1;exitX=0;exitY=0;" target="banner_box" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="line_diag_2" edge="1" parent="1" source="banner_box" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#CBD5E1;entryX=0;entryY=1;exitX=1;exitY=0;" target="banner_box" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="banner_text" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;fontSize=11;sketch=1;" value="&lt;b style=&quot;font-size:14px;&quot;&gt;[ AREA HERO BANNER / GAMBAR PERPUSTAKAAN ]&lt;/b&gt;&lt;br&gt;Teks Sambutan Layanan Sirkulasi &amp; Informasi Pemustaka" vertex="1">
+          <mxGeometry height="50" width="460" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stat_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;fontSize=11;sketch=1;" value="[ STATISTIK 1 ]&#xa;&lt;b&gt;Peminjaman Aktif&lt;/b&gt;&#xa;(Nilai Angka Dinamis: 3)" vertex="1">
+          <mxGeometry height="70" width="295" x="85" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="stat_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;fontSize=11;sketch=1;" value="[ STATISTIK 2 ]&#xa;&lt;b&gt;Buku Terlambat&lt;/b&gt;&#xa;(Nilai Angka Dinamis: 1)" vertex="1">
+          <mxGeometry height="70" width="295" x="402" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="stat_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;fontSize=11;sketch=1;" value="[ STATISTIK 3 ]&#xa;&lt;b&gt;Akumulasi Denda&lt;/b&gt;&#xa;(Nilai Terhitung: Rp 4.000)" vertex="1">
+          <mxGeometry height="70" width="295" x="720" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="box_form" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;sketch=1;" value="" vertex="1">
+          <mxGeometry height="340" width="480" x="85" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="form_header" parent="1" style="text;html=1;fontSize=12;fontColor=#1E293B;" value="&lt;b&gt;[ FORM TRANSAKSI PEMINJAMAN ]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="260" x="105" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="form_line" parent="1" style="line;strokeWidth=1;strokeColor=#1E293B;" value="" vertex="1">
+          <mxGeometry height="1" width="440" x="105" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_lbl_1" parent="1" style="text;html=1;fontSize=10;fontStyle=1;" value="Label: Nama Anggota" vertex="1">
+          <mxGeometry height="15" width="150" x="105" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_box_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1.2;fontSize=10;align=left;spacingLeft=10;sketch=1;" value="[ Input Teks: Nama Lengkap ]" vertex="1">
+          <mxGeometry height="30" width="440" x="105" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_lbl_2" parent="1" style="text;html=1;fontSize=10;fontStyle=1;" value="Label: Kategori" vertex="1">
+          <mxGeometry height="15" width="120" x="105" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_box_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1.2;fontSize=10;align=left;spacingLeft=10;sketch=1;" value="[ Select / Dropdown Kategori ]" vertex="1">
+          <mxGeometry height="30" width="210" x="105" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_lbl_3" parent="1" style="text;html=1;fontSize=10;fontStyle=1;" value="Label: Durasi Pinjam (Hari)" vertex="1">
+          <mxGeometry height="15" width="150" x="335" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_box_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1.2;fontSize=10;align=left;spacingLeft=10;sketch=1;" value="[ Input Angka: 5 ]" vertex="1">
+          <mxGeometry height="30" width="210" x="335" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_lbl_4" parent="1" style="text;html=1;fontSize=10;fontStyle=1;" value="Label: Judul Buku" vertex="1">
+          <mxGeometry height="15" width="150" x="105" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_box_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1.2;fontSize=10;align=left;spacingLeft=10;sketch=1;" value="[ Input Teks: Judul Buku ]" vertex="1">
+          <mxGeometry height="30" width="440" x="105" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_note" parent="1" style="text;html=1;fontSize=9;fontColor=#64748B;fontStyle=2;" value="* Catatan Aturan Bisnis: Batas 7 hari. Lewat 7 hari denda Rp 2.000/hari" vertex="1">
+          <mxGeometry height="20" width="400" x="105" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_submit_sketsa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#1E293B;strokeWidth=1.5;fontSize=11;fontStyle=1;sketch=1;" value="[ TOMBOL SUBMIT: CATAT PEMINJAMAN ]" vertex="1">
+          <mxGeometry height="38" width="440" x="105" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="box_media" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;sketch=1;" value="" vertex="1">
+          <mxGeometry height="340" width="430" x="585" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="media_header" parent="1" style="text;html=1;fontSize=12;fontColor=#1E293B;" value="&lt;b&gt;[ PUSAT INFORMASI MULTIMEDIA ]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="280" x="605" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="media_line" parent="1" style="line;strokeWidth=1;strokeColor=#1E293B;" value="" vertex="1">
+          <mxGeometry height="1" width="390" x="605" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="media_video_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.2;sketch=1;" value="" vertex="1">
+          <mxGeometry height="150" width="390" x="605" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="video_diag_1" edge="1" parent="1" source="media_video_box" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#CBD5E1;entryX=1;entryY=1;exitX=0;exitY=0;" target="media_video_box" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="video_diag_2" edge="1" parent="1" source="media_video_box" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#CBD5E1;entryX=0;entryY=1;exitX=1;exitY=0;" target="media_video_box" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="video_play" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;fontSize=10;fontStyle=1;sketch=1;" value="▶ [ VIDEO PLAYER PANDUAN ]" vertex="1">
+          <mxGeometry height="40" width="220" x="690" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="video_controls" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#94A3B8;strokeWidth=1;fontSize=9;sketch=1;" value="[ Controls: Play | Progress Bar | Durasi | Volume | Fullscreen ]" vertex="1">
+          <mxGeometry height="20" width="390" x="605" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="audio_lbl" parent="1" style="text;html=1;fontSize=10;fontStyle=1;" value="Label: Audio Bel Pengumuman" vertex="1">
+          <mxGeometry height="15" width="200" x="605" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="audio_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#1E293B;strokeWidth=1.2;fontSize=10;align=left;spacingLeft=15;sketch=1;" value="  ▶ [ AUDIO CONTROLLER: Bel Pengumuman Jam Layanan ]  🔊" vertex="1">
+          <mxGeometry height="40" width="390" x="605" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="box_canvas" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;sketch=1;" value="" vertex="1">
+          <mxGeometry height="175" width="930" x="85" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="canvas_title" parent="1" style="text;html=1;fontSize=12;fontColor=#1E293B;" value="&lt;b&gt;[ AREA GRAFIS CANVAS 2D: PARAF DIGITAL BUKTI SERAH TERIMA BUKU ]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="550" x="105" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="canvas_area" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1.5;dashed=1;fontSize=11;fontColor=#64748B;sketch=1;" value="~ ~ ~ (Area Goresan Mouse / Touch Screen untuk Tanda Tangan Peminjam) ~ ~ ~" vertex="1">
+          <mxGeometry height="80" width="890" x="105" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_canvas_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.2;fontSize=10;sketch=1;" value="[ TOMBOL BERSIHKAN ]" vertex="1">
+          <mxGeometry height="28" width="135" x="710" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_canvas_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#1E293B;strokeWidth=1.2;fontSize=10;fontStyle=1;sketch=1;" value="[ TOMBOL SIMPAN PNG ]" vertex="1">
+          <mxGeometry height="28" width="135" x="860" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="box_table" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E293B;strokeWidth=1.5;sketch=1;" value="" vertex="1">
+          <mxGeometry height="260" width="930" x="85" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="table_title" parent="1" style="text;html=1;fontSize=12;fontColor=#1E293B;" value="&lt;b&gt;[ TABEL DATA TRANSAKSI SIRKULASI ]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="300" x="105" y="982" as="geometry" />
+        </mxCell>
+        <mxCell id="table_search_sketsa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1;fontSize=10;align=left;spacingLeft=10;sketch=1;" value="[ Input Pencarian Realtime: Cari nama/judul... ]" vertex="1">
+          <mxGeometry height="26" width="270" x="725" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="No" vertex="1">
+          <mxGeometry height="28" width="35" x="105" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="Kode" vertex="1">
+          <mxGeometry height="28" width="70" x="140" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="Nama Peminjam" vertex="1">
+          <mxGeometry height="28" width="160" x="210" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="Judul Buku" vertex="1">
+          <mxGeometry height="28" width="210" x="370" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="Kategori" vertex="1">
+          <mxGeometry height="28" width="100" x="580" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="Durasi" vertex="1">
+          <mxGeometry height="28" width="70" x="680" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="Denda" vertex="1">
+          <mxGeometry height="28" width="90" x="750" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="Status" vertex="1">
+          <mxGeometry height="28" width="85" x="840" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_h9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#1E293B;fontSize=10;fontStyle=1;sketch=1;" value="Aksi" vertex="1">
+          <mxGeometry height="28" width="70" x="925" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="1" vertex="1">
+          <mxGeometry height="28" width="35" x="105" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="TRX-101" vertex="1">
+          <mxGeometry height="28" width="70" x="140" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="Ahmad Dahlan" vertex="1">
+          <mxGeometry height="28" width="160" x="210" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="Pemrograman Web Modern" vertex="1">
+          <mxGeometry height="28" width="210" x="370" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="Teknologi" vertex="1">
+          <mxGeometry height="28" width="100" x="580" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="4 Hari" vertex="1">
+          <mxGeometry height="28" width="70" x="680" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="Rp 0" vertex="1">
+          <mxGeometry height="28" width="90" x="750" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=9;" value="[ Dipinjam ]" vertex="1">
+          <mxGeometry height="28" width="85" x="840" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r1_9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=9;" value="[ Selesai ]" vertex="1">
+          <mxGeometry height="28" width="70" x="925" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="2" vertex="1">
+          <mxGeometry height="28" width="35" x="105" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="TRX-102" vertex="1">
+          <mxGeometry height="28" width="70" x="140" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="Siti Rahmawati" vertex="1">
+          <mxGeometry height="28" width="160" x="210" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="Fisika Terapan &amp; Robotika" vertex="1">
+          <mxGeometry height="28" width="210" x="370" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="Sains" vertex="1">
+          <mxGeometry height="28" width="100" x="580" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="9 Hari" vertex="1">
+          <mxGeometry height="28" width="70" x="680" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=10;" value="Rp 4.000" vertex="1">
+          <mxGeometry height="28" width="90" x="750" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=9;" value="[ Terlambat ]" vertex="1">
+          <mxGeometry height="28" width="85" x="840" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_r2_9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=9;" value="[ Selesai ]" vertex="1">
+          <mxGeometry height="28" width="70" x="925" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="t_empty" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E2E8F0;fontSize=9;fontColor=#94A3B8;fontStyle=2;" value="(Data di-render secara dinamis menggunakan perulangan JavaScript forEach)" vertex="1">
+          <mxGeometry height="25" width="890" x="105" y="1104" as="geometry" />
+        </mxCell>
+        <mxCell id="box_footer_sketsa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#1E293B;strokeWidth=1.5;fontSize=10;fontColor=#475569;sketch=1;" value="[ FOOTER: Identitas Sistem Informasi Perpustakaan (SIPUS) &amp; Hak Cipta 2026 ]" vertex="1">
+          <mxGeometry height="60" width="930" x="85" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="note_wireframe" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#F59E0B;strokeWidth=1.5;fontSize=10;fontColor=#78350F;align=left;spacingLeft=15;" value="&lt;b&gt;CATATAN PERANCANGAN AWAL (SKETSA WIREFRAME):&lt;/b&gt;&#xa;1. Antarmuka mengadopsi struktur 1 halaman (Single Page Application) responsif.&#xa;2. Form input diletakkan berdampingan dengan modul informasi multimedia untuk efisiensi ruang pandang.&#xa;3. Area canvas paraf diletakkan sebelum tabel transaksi sebagai bukti verifikasi serah terima fisik buku.&#xa;4. Tabel data dilengkapi pencarian realtime dan kolom kalkulasi denda otomatis." vertex="1">
+          <mxGeometry height="60" width="930" x="85" y="1325" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
